@@ -1,0 +1,23 @@
+{
+  "name": "address",
+  "version": "0.0.0",
+  "description": "Address for Student Benefit",
+  "main": "dist/index.js",
+  "authors": [
+    "Trung Nguyen"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ],
+  "dependencies": {
+    "funfix": "http://gitlab.pdx.groowin.com/trung.nguyen/funfix.git#6.2.3-gw.0"
+  }
+}
