@@ -1,6 +1,6 @@
 {
   "name": "address",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Address for Student Benefit",
   "main": "dist/index.js",
   "authors": [
@@ -18,6 +18,6 @@
     "src"
   ],
   "dependencies": {
-    "funfix": "http://gitlab.pdx.groowin.com/trung.nguyen/funfix.git#6.2.3-gw.0"
+    "funfix": "http://gitlab.pdx.groowin.com/trung.nguyen/funfix.git#~6.2.3-gw.0"
   }
 }
