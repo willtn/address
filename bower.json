@@ -1,6 +1,6 @@
 {
   "name": "address",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Address for Student Benefit",
   "main": "dist/index.js",
   "authors": [
