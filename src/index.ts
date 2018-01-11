@@ -26,7 +26,7 @@ export class Address {
   }
 
   constructor(
-    public id: string,
+    public id: string = 'AAAAAAAAAAAAAAAAAAAAAA',
     public line1: Option<string> = Option.none(),
     public line2: Option<string> = Option.none(),
     public zip: Option<string> = Option.none(),
