@@ -16,7 +16,7 @@ export declare class Address {
     geocoder: Option<string>;
     static fromRaw(raw: RawAddress): Address;
     static toRaw(address: Address): RawAddress;
-    constructor(id: string, line1?: Option<string>, line2?: Option<string>, zip?: Option<string>, city?: Option<string>, state?: Option<string>, countryCode?: Option<string>, comment?: Option<string>, coordinates?: Option<Coords>, geocoder?: Option<string>);
+    constructor(id?: string, line1?: Option<string>, line2?: Option<string>, zip?: Option<string>, city?: Option<string>, state?: Option<string>, countryCode?: Option<string>, comment?: Option<string>, coordinates?: Option<Coords>, geocoder?: Option<string>);
 }
 export interface RawAddress {
     city?: string;

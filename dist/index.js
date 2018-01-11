@@ -12,6 +12,7 @@
     var funfix_core_1 = require("funfix-core");
     var Address = /** @class */ (function () {
         function Address(id, line1, line2, zip, city, state, countryCode, comment, coordinates, geocoder) {
+            if (id === void 0) { id = 'AAAAAAAAAAAAAAAAAAAAAA'; }
             if (line1 === void 0) { line1 = funfix_core_1.Option.none(); }
             if (line2 === void 0) { line2 = funfix_core_1.Option.none(); }
             if (zip === void 0) { zip = funfix_core_1.Option.none(); }
